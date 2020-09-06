@@ -3,7 +3,7 @@ Curso completo deEconometria-Stata
 
 Econometría con Stata. Comprende Econometría de corte transversal, series de tiempo, panel de datos y Econometría espacial.
 
-Este repositorio, comprende una compilación y resumen de Dos files y Bases de datos de los cursos de Econometría llevado en mis cursos de pregrado, talleres de postgrados, y otros cursos.
+Este repositorio, comprende una compilación y resumen de Do-files y Bases de datos de los cursos de Econometría llevado en mis cursos de pregrado, talleres de postgrados, y otros cursos.
 
 
 CONTENIDO DEL CURSO: 
