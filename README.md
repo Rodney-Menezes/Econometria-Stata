@@ -1,77 +1,105 @@
 # Econometria-Stata
-Curso completo deEconometria-Stata
+
+Curso completo de Econometria-Stata
 
 Econometría con Stata. Comprende Econometría de corte transversal, series de tiempo, panel de datos y Econometría espacial.
 
-Este repositorio, comprende una compilación y resumen de Do-files y Bases de datos de los cursos de Econometría llevado en mis cursos de pregrado, talleres de postgrados, y otros cursos.
+Este repositorio, comprende una compilación y resumenes de Do-files y Bases de datos de los cursos de Econometría llevado en mis cursos de pregrado, talleres de postgrados, y otros cursos.
 
+CONTENIDO DEL CURSO:
 
-CONTENIDO DEL CURSO: 
+SESIÓN 1: INTRODUCCIÓN A STATA Y SU LENGUAJE DE PROGRAMACIÓN
 
+• Interfaz básica de Stata 
 
-SESION 1: INTRODUCCION A STATA Y SU LENGUAJE DE PROGRAMACION 
+• Establecimiento de rutas y guardado de bases de datos 
 
- • Interfaz basica de Stata 
- • Establecimiento de rutas y guardado de bases de datos 
- • Definicion de etiquetas de variables y categorias 
- • Tabulados simples y cruzados  
- • Creacion de nuevas variables: gen y egen 
- • Reemplazo y recodificacion de variables 
- • Exportar e importar bases 
+• Definición de etiquetas de variables y categorías 
 
-SESION 2: MANEJO DE BASE DE DATOS, MACROS Y LOOPS 
+• Tabulados simples y cruzados
 
- • Codigos identificadores en base de datos 
- • Uso de los comandos merge, append y collapse 
- • Reformateo de bases de datos: comando reshape 
- • Traduccion de bases de datos 
- • Macros y Loops: forvalues y foreach 
+• Creación de nuevas variables: gen y egen 
 
-SESION 3: VISUALIZACION DE DATOS 
+• Reemplazo y recodificación de variables 
 
- • Elaboracion y creacion de graficos 
- • Graficos twoway, Scatterplots, Graficos de lınea, area y barras, Matriz de diagramas de dispersion
- • Histogramas y Densidad de Kernels 
- • Graficos de cajas (box plot)
- • Graficos de puntos 
- • Graficos circulares 
- • Creacion de mapas 
- • Combinacion de graficos
+• Exportar e importar bases
 
-SESION 4: MODELO MULTIVARIADO 
+SESIÓN 2: MANEJO DE BASE DE DATOS, MACROS Y LOOPS
 
- • Analisis Bivariado: Test de proporciones, Test de Varianza, Test de Medias, Relacion entre variables, Coeficiente de correlacion de Pearson 
- • Fundamentos del analisis multivariado: Modelo de Regresion Lineal (OLS), Modelo multiple y supuestos
- • Modelo con covariantes continuos, polinomicos, categoricos, interaccion
+• Codigos identificadores en base de datos 
 
-SESION 5: MODELOS DE ELECCION DISCRETA 
+• Uso de los comandos merge, append y collapse 
 
- • Modelos de Probabilidad Lineal
- • Modelos Binarios: Probit y Logit
- • Modelos Ordenados
- • Modelo Logit Multinomial
+• Reformateo de bases de datos: comando reshape 
 
-SESION 6: MODELOS DE VARIABLE DEPENDIENTE LIMITADA 
+• Traducción de bases de datos • Macros y Loops: forvalues y foreach
 
- • Modelos de Variable dependiente limitada: Regresiones con datos truncados y censurados (Tobit), Modelo de Seleccion: Heckman
- • Modelos de conteo: Poisson y Binomial negativo
- • Modelos de duracion: Exponencial y Weibull
+SESIÓN 3: VISUALIZACIÓN DE DATOS
 
-SESION 7: SERIES TEMPORALES
+• Elaboración y creación de gráficos 
 
- • Ruido blanco, modelos autoregresivos (AR), moving average (MA), modelos ARMA
- • Descomposicion y filtros para series de tiempo 
- • Estacionariedad, diferencia, detrending, estacionalidad 
- • Test Dickey-Fuller para estacionariedad 
- • Funcion autocorrelacion (ACF) y funcion de autocorrelacion parcial 
- • Metodologıa Box-Jenkins para seleccionar un modelo ARIMA
+• Gráficos twoway, Scatterplots, Gráficos de línea, área y barras, Matriz de diagramas de dispersión 
 
-SESION 8: ECONOMETRIA DE DATOS DE PANEL
+• Histogramas y Densidad de Kernels 
 
- • Modelos de datos de panel estatico: Efectos fijos y aleatorios 
- • Eleccion de Modelos Alternativos: Modelo de efectos individuales versus el modelo Pool, Modelo de efectos fijos versus efectos aleatorios
+• Gráficos de cajas (box plot) 
 
-SESION 9: MODELOS DE ECONOMETRIA ESPACIAL 
+• Gráficos de puntos 
 
- • Taxonomıa de modelos: Spatial Lag Model, Spatial Durbin Model, Spatial Error Model, SAC 
- • Interpretacion de Modelos Espaciales: Medicion de Spillovers: globales y locales, Efectos Marginales: directos, indirectos y totales 4
+• Gráficos circulares 
+
+• Creación de mapas 
+
+• Combinación de gráficos
+
+SESIÓN 4: MODELO MULTIVARIADO
+
+• Análisis Bivariado: Test de proporciones, Test de Varianza, Test de Medias, Relacion entre variables, Coeficiente de correlacion de Pearson 
+
+• Fundamentos del análisis multivariado: Modelo de Regresion Lineal (OLS), Modelo multiple y supuestos 
+
+• Modelo con covariantes continuos, polinómicos, categóricos, interacción
+
+SESIÓN 5: MODELOS DE ELECCIÓN DISCRETA
+
+• Modelos de Probabilidad Lineal 
+
+• Modelos Binarios: Probit y Logit 
+
+• Modelos Ordenados 
+
+• Modelo Logit Multinomial
+
+SESIÓN 6: MODELOS DE VARIABLE DEPENDIENTE LIMITADA
+
+• Modelos de Variable dependiente limitada: Regresiones con datos truncados y censurados (Tobit), Modelo de Selección: Heckman 
+
+• Modelos de conteo: Poisson y Binomial negativo 
+
+• Modelos de duración: Exponencial y Weibull
+
+SESIÓN 7: SERIES TEMPORALES
+
+• Ruido blanco, modelos autoregresivos (AR), moving average (MA), modelos ARMA 
+
+• Descomposición y filtros para series de tiempo 
+
+• Estacionariedad, diferencia, detrending, estacionalidad 
+
+• Test Dickey-Fuller para estacionariedad 
+
+• Función autocorrelacion (ACF) y función de autocorrelacion parcial 
+
+• Metodologıa Box-Jenkins para seleccionar un modelo ARIMA
+
+SESIÓN 8: ECONOMETRÍA DE DATOS DE PANEL
+
+• Modelos de datos de panel estático: Efectos fijos y aleatorios 
+
+• Elección de Modelos Alternativos: Modelo de efectos individuales versus el modelo Pool, Modelo de efectos fijos versus efectos aleatorios
+
+SESIÓN 9: MODELOS DE ECONOMETRÍA ESPACIAL
+
+• Taxonomía de modelos: Spatial Lag Model, Spatial Durbin Model, Spatial Error Model, SAC 
+
+• Interpretacion de Modelos Espaciales: Medicion de Spillovers: globales y locales, Efectos Marginales: directos, indirectos y totales.
